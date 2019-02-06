@@ -1,0 +1,157 @@
+#mainContainer{
+    display: grid;
+    
+}
+#page{
+    background-color: black;
+    color:gray;
+}
+#historyBody{
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+    grid-row-gap: 15px;
+    color: white;
+}
+.zenBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+#pyBanner{
+    justify-self: center;
+    margin: 5px;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+.mainBody{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+  
+body {
+    background-color:black;
+    color:gray;
+    size: inherit;
+}
+nav{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, main, nav, footer {
+    text-align: center;
+    size: inherit;
+}
+footer{
+    clear:left;
+    text-align: left;
+    font-size: 1em;
+    color:blue;
+    size: inherit;
+}
+
+
+nav a{ /* links within "nav" container */
+    padding:15px;
+    padding-bottom: 4px;
+    /*front-size: 1.8em;*/
+    text-decoration: none; /* removes underline */
+    color: white; /* by default, links are blue */
+}
+nav a:hover{
+    border-bottom: 2px orange solid;
+    font-size: 1.8em;
+    transition: .9s; /* transition effect */
+}
+.active-page{
+    border-bottom: 2px orange solid;
+    font-size: 1.8em;
+}
+
+.picFig{
+  width: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 10px;
+  padding: 10px;
+  background-color:#3b3f47;
+}
+.picFig.guido{
+    position: relative;
+    width: 95%;
+    color: white;
+}
+
+
+#active-page{
+    text-decoration: underline;
+    background-color: blue;
+    color: red;
+}
+#headerImg{
+    float: left;
+    max-height: 5%;
+    max-width: 5%;
+}
+#monk{
+    margin: auto;
+    max-height: 75%;
+    max-width: 75%;
+}
+#aboutText{
+    padding-right: 15px;
+}
+#foot{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+#otterFooter{
+    max-height:75%;
+    max-width:75%;
+}
+#thePEP{
+    color: #0c65f4;
+}
+
+figcaption{
+    display: block;
+}
+.indexMain{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 15px 15px;
+    background-color: #eee;
+    margin:auto;
+    
+}
+.indexMain > div:nth-child(odd){
+    background-color:#ddd;
+}
+.row{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.leftBody{
+    display: grid;
+    justify-content: end;
+    text-align: center;
+}
+.rightBody{
+    flex:50%;
+    justify-content:right;
+}
+h2.paragraphHeader{
+    color:blue;
+    text-align: center;
+}
+p.generalText{
+    color: white;
+}
