@@ -6,12 +6,21 @@
     background-color: black;
     color:gray;
 }
-#historyBody{
+.historyBody{
     display: grid;
-    grid-template-rows: 1fr 7fr;
+    grid-template-rows: 1fr 2fr;
     grid-row-gap: 15px;
-    color: white;
+    color:white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
+#pyRepo{
+    margin: auto;
+    position: center;
+    color: #4286f4;
+}
+
 .zenBody{
     display: grid;
     grid-template-columns: 1fr 1fr
@@ -19,8 +28,8 @@
 #pyBanner{
     justify-self: center;
     margin: 5px;
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 80%;
+    max-width: 80%;
 
 }
 .mainBody{
